@@ -1,0 +1,8 @@
+#menu li
+{
+    float: left;
+    margin-right: 1.5em;
+}
+
+.bar { width: 30%; border: 1px solid #000; }
+.percentage { background: #ccc; }
