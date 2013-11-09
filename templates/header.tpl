@@ -36,6 +36,7 @@
                 <li><a href="index.php">Transactions</a></li>
                 <li><a href="stats.php">Statistics</a></li>
                 <li><a href="admin.php">Administration</a></li>
+                <li><a href="mobile.php">Mobile</a></li>
                 
             </ul>
         </div>

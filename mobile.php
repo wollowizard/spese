@@ -6,18 +6,6 @@ include './Entity/store.php';
 include './Entity/payer.php';
 include './Entity/query.php';
 require('./libs/Smarty.class.php');
-include './Mobile_Detect.php';
-
-$detect = new Mobile_Detect;
-
-if ($detect->isMobile()) {
-    echo '<script>var r=confirm("Do you wanna visit the mobile site?");
-    if (r==true)
-  {
-  window.location = "mobile.php";
-  }
-</script>';
-}
 
 if (isset($_POST['newprice'])) {
     $newprice = $_POST['newprice'];
@@ -114,5 +102,5 @@ $smarty->assign("payers_output", $payers);
 
 
 
-$smarty->display('index.tpl');
+$smarty->display('mobile3.tpl');
 ?>

@@ -7,7 +7,15 @@ $(document).ready(function() {
         "bAutoWidth": false});
 });
 $(document).ready(function() {
-    $('.datatableclass').dataTable({"bPaginate": false, "bInfo": false, "bFilter": false, 
+    $('#newline2').dataTable({"bPaginate": false,
+        "bLengthChange": false,
+        "bFilter": false,
+        "bSort": false,
+        "bInfo": false,
+        "bAutoWidth": false});
+});
+$(document).ready(function() {
+    $('.datatableclass').dataTable({"bPaginate": true, "bInfo": false, "bFilter": false,"aaSorting": [[ 1, "desc" ]]
     });
 });
 $(document).ready(function() {
